@@ -1,5 +1,4 @@
 import React from 'react'
-import { shell } from 'electron'
 
 import './about.less'
 
@@ -12,17 +11,7 @@ export default class About extends React.Component<PageProps> {
         <p className="fs-12" style={{ margin: 4 }}>
           Version {$tools.APP_VERSION}
         </p>
-        <p className="fs-12 text-gray">
-          Copyright © {new Date().getFullYear()}{' '}
-          <a
-            onClick={() => {
-              shell.openExternal('https://github.com/lanten')
-            }}
-          >
-            lanten.
-          </a>{' '}
-          All rights (demo)
-        </p>
+        <p className="fs-12 text-gray">about</p>
       </div>
     )
   }

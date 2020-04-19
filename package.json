@@ -1,11 +1,10 @@
 {
-  "name": "electron-antd",
-  "appId": "org.electron.electron-antd",
+  "name": "goalgo3.0",
+  "appId": "org.hp.goalgo",
   "version": "1.0.0",
-  "buildVersion": "0001",
-  "private": false,
+  "buildVersion": "1.0.1",
+  "private": true,
   "main": "dist/main/main.js",
-  "author": "lanten",
   "scripts": {
     "ts:dev": "ts-node -P build/tsconfig.json build/tasks/dev-server.ts",
     "ts:build": "ts-node -P build/tsconfig.json build/tasks/build.ts",
@@ -71,14 +70,5 @@
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.10.3",
     "webpackbar": "^4.0.0"
-  },
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lanten/electron-antd.git"
-  },
-  "bugs": {
-    "url": "https://github.com/lanten/electron-antd/issues"
-  },
-  "homepage": "https://github.com/lanten/electron-antd#readme"
+  }
 }
